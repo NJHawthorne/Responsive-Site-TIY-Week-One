@@ -1,0 +1,60 @@
+body {
+  max-width: 400px; }
+  body header {
+    background-color: #fff; }
+    body header nav {
+      display: inline-block;
+      padding: 0 0 0 1em;
+      font-size: 1em;
+      vertical-align: middle;
+      margin-bottom: -1em; }
+    body header a:first-child {
+      color: #565D64;
+      text-decoration: none; }
+    body header a:nth-child(2) {
+      color: #777;
+      padding: 0 2em;
+      text-decoration: none; }
+    body header a:nth-child(3) {
+      color: #000;
+      text-decoration: none; }
+    body header a:last-child {
+      color: #777;
+      padding-left: 2em;
+      text-decoration: none; }
+    body header div {
+      background-image: url(https://images.unsplash.com/2/05.jpg?crop=entropy&fit=crop&fm=jpg&h=625&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1225);
+      margin-bottom: 50px; }
+      body header div h1 {
+        color: #fff;
+        padding: 70px 60px;
+        text-align: center;
+        font-weight: 400;
+        text-shadow: 1px 1px #000; }
+  body main {
+    width: 380px;
+    margin: 0 10px; }
+    body main .color-panel {
+      padding: 33px 75px 40px 75px;
+      color: #fff;
+      text-align: center;
+      height: 220px; }
+      body main .color-panel h4:first-child {
+        letter-spacing: 5px;
+        margin: initial; }
+      body main .color-panel h1 {
+        font-size: 100px;
+        font-weight: 400;
+        margin: initial; }
+      body main .color-panel h4:last-child {
+        color: #A7C8A7;
+        margin: initial;
+        font-weight: 400; }
+    body main #green-panel {
+      background-color: #519251; }
+    body main #blue-panel {
+      background-color: #2C4985; }
+    body main #black-panel {
+      background-color: #000; }
+
+/*# sourceMappingURL=styles.css.map */
