@@ -1,5 +1,5 @@
 body {
-  max-width: 400px; }
+  max-width: 478px; }
   body header {
     background-color: #fff; }
     body header nav {
@@ -13,14 +13,14 @@ body {
       text-decoration: none; }
     body header a:nth-child(2) {
       color: #777;
-      padding: 0 2em;
+      padding: 0 3.5em;
       text-decoration: none; }
     body header a:nth-child(3) {
       color: #000;
       text-decoration: none; }
     body header a:last-child {
       color: #777;
-      padding-left: 2em;
+      padding-left: 3.5em;
       text-decoration: none; }
     body header div {
       background-image: url(https://images.unsplash.com/2/05.jpg?crop=entropy&fit=crop&fm=jpg&h=625&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1225);
@@ -32,29 +32,59 @@ body {
         font-weight: 400;
         text-shadow: 1px 1px #000; }
   body main {
-    width: 380px;
+    width: 458px;
     margin: 0 10px; }
     body main .color-panel {
-      padding: 33px 75px 40px 75px;
-      color: #fff;
+      padding: 35px 75px 10px 75px;
       text-align: center;
-      height: 220px; }
+      height: 180px;
+      color: #fff; }
       body main .color-panel h4:first-child {
         letter-spacing: 5px;
         margin: initial; }
       body main .color-panel h1 {
         font-size: 100px;
-        font-weight: 400;
+        font-weight: 300;
         margin: initial; }
       body main .color-panel h4:last-child {
-        color: #A7C8A7;
         margin: initial;
-        font-weight: 400; }
+        font-weight: 500;
+        font-size: 20px; }
     body main #green-panel {
       background-color: #519251; }
+    body main #green-text {
+      color: #A7C8A7; }
     body main #blue-panel {
       background-color: #2C4985; }
+    body main #blue-text {
+      color: #95A3C2; }
     body main #black-panel {
       background-color: #000; }
+    body main #black-text {
+      color: #878787; }
+    body main .information-grid {
+      list-style: none;
+      text-align: center;
+      color: #777;
+      margin-top: 0;
+      margin-bottom: 1.5em; }
+      body main .information-grid li {
+        border: 1px solid #DBDBDB;
+        padding: 1em;
+        margin-left: -2.5em;
+        background-color: #E8E8E8; }
+      body main .information-grid li:last-child {
+        background-color: #fff;
+        height: 60px; }
+      body main .information-grid a {
+        text-decoration: none;
+        color: #000;
+        margin-top: 15px;
+        font-weight: bolder;
+        border: 1px solid #E1E1E1;
+        padding: 1em;
+        border-radius: 1em;
+        position: relative;
+        top: 1.25em; }
 
 /*# sourceMappingURL=styles.css.map */
