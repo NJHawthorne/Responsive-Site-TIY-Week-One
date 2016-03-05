@@ -13,14 +13,14 @@ body {
       text-decoration: none; }
     body header a:nth-child(2) {
       color: #777;
-      padding: 0 3.5em;
+      padding: 0 2em;
       text-decoration: none; }
     body header a:nth-child(3) {
       color: #000;
       text-decoration: none; }
     body header a:last-child {
       color: #777;
-      padding-left: 3.5em;
+      padding-left: 2em;
       text-decoration: none; }
     body header div {
       background-image: url(https://images.unsplash.com/2/05.jpg?crop=entropy&fit=crop&fm=jpg&h=625&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1225);
@@ -32,7 +32,7 @@ body {
         font-weight: 400;
         text-shadow: 1px 1px #000; }
   body main {
-    width: 458px;
+    max-width: 458px;
     margin: 0 10px; }
     body main .color-panel {
       padding: 35px 75px 10px 75px;
@@ -70,21 +70,40 @@ body {
       margin-bottom: 1.5em; }
       body main .information-grid li {
         border: 1px solid #DBDBDB;
-        padding: 1em;
+        padding: 0.75em;
         margin-left: -2.5em;
         background-color: #E8E8E8; }
       body main .information-grid li:last-child {
         background-color: #fff;
-        height: 60px; }
+        height: 55px; }
       body main .information-grid a {
         text-decoration: none;
         color: #000;
-        margin-top: 15px;
         font-weight: bolder;
         border: 1px solid #E1E1E1;
-        padding: 1em;
+        padding: 0.5em 1em;
         border-radius: 1em;
         position: relative;
         top: 1.25em; }
+    body main .premium-plan-panel:last-child {
+      margin-bottom: 6.25em; }
+  body .lorem-ipsum {
+    margin: 0 2em;
+    text-align: left; }
+    body .lorem-ipsum h3 {
+      font-weight: 400;
+      letter-spacing: 5px;
+      font-size: 1.2em; }
+    body .lorem-ipsum p {
+      line-height: 1.5em;
+      color: #546268; }
+  body footer {
+    background-color: #000;
+    color: #888888;
+    padding: 1.5em 2em;
+    text-align: center;
+    line-height: 1.5em; }
+    body footer a {
+      color: #fff; }
 
 /*# sourceMappingURL=styles.css.map */
