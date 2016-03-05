@@ -27,10 +27,16 @@ body {
       margin-bottom: 50px; }
       body header div h1 {
         color: #fff;
-        padding: 70px 60px;
+        padding: 0 60px;
         text-align: center;
         font-weight: 400;
         text-shadow: 1px 1px #000; }
+      body header div h1:first-child {
+        padding-top: 70px;
+        margin-bottom: -0.5em; }
+      body header div h1:last-child {
+        padding-bottom: 70px;
+        margin-top: 0.5em; }
   body main {
     max-width: 458px;
     margin: 0 10px; }
@@ -88,7 +94,7 @@ body {
     body main .premium-plan-panel:last-child {
       margin-bottom: 6.25em; }
   body .lorem-ipsum {
-    margin: 0 2em;
+    margin: 0 3em;
     text-align: left; }
     body .lorem-ipsum h3 {
       font-weight: 400;
@@ -105,5 +111,13 @@ body {
     line-height: 1.5em; }
     body footer a {
       color: #fff; }
+
+@media (min-width: 478px) {
+  body {
+    max-width: 767px; }
+    body header > div > h1 {
+      font-size: 3em; }
+    body main {
+      max-width: 747px; } }
 
 /*# sourceMappingURL=styles.css.map */
