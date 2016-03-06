@@ -115,8 +115,12 @@ body {
 @media (min-width: 478px) {
   body {
     max-width: 767px; }
-    body header > div > h1 {
-      font-size: 3em; }
+    body header > nav {
+      padding: 1em 0 1.5em 1em; }
+    body header > div {
+      padding: 3em 0; }
+      body header > div h1 {
+        font-size: 3em; }
     body main {
       max-width: 747px; } }
 
