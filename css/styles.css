@@ -24,7 +24,7 @@ body {
       text-decoration: none; }
     body header div {
       background-image: url(https://images.unsplash.com/2/05.jpg?crop=entropy&fit=crop&fm=jpg&h=625&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1225);
-      margin-bottom: 50px; }
+      margin-bottom: 3em; }
       body header div h1 {
         color: #fff;
         padding: 0 60px;
@@ -144,5 +144,26 @@ body {
       margin-right: 2.5em; }
     body section > div:last-child {
       margin-left: 2.5em; } }
+@media (min-width: 979px) {
+  body {
+    max-width: 50000px; }
+    body header {
+      max-width: 980px;
+      margin: 0 auto 3em auto; }
+    body main {
+      margin: 0 auto; }
+    body .lorem-ipsum {
+      margin: 0 3em;
+      /*Not sure why using margin: 0 auto won't work in the above line, but some part of how I set up the divs and the paragraphs is messing with how they turn out. Not entirely sure how to fix it. */ }
+      body .lorem-ipsum section > div:first-child {
+        margin-left: auto; }
+      body .lorem-ipsum section > div:nth-child(2) {
+        margin-right: auto; }
+      body .lorem-ipsum section > div:nth-child(3) {
+        margin-left: auto; }
+      body .lorem-ipsum section > div:last-child {
+        margin-right: auto; }
+    body footer {
+      margin: 0 auto; } }
 
 /*# sourceMappingURL=styles.css.map */
