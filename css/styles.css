@@ -94,7 +94,8 @@ body {
     body main .premium-plan-panel:last-child {
       margin-bottom: 6.25em; }
   body .lorem-ipsum {
-    margin: 0 3em;
+    padding: 0;
+    margin: 0 4%;
     text-align: left; }
     body .lorem-ipsum h3 {
       font-weight: 400;
@@ -129,21 +130,22 @@ body {
     body main {
       max-width: 958px; }
       body main .premium-plan-panel {
-        display: inline-block;
-        margin: 0 0.5em;
-        width: 30%; }
-    body section > div {
-      display: inline-block;
-      width: 40%;
-      vertical-align: top; }
-    body section > div:first-child {
-      margin-right: 2.5em; }
-    body section > div:nth-child(2) {
-      margin-left: 2.5em; }
-    body section > div:nth-child(3) {
-      margin-right: 2.5em; }
-    body section > div:last-child {
-      margin-left: 2.5em; } }
+        float: left;
+        width: 33.333%;
+        border: 1em solid white;
+        box-sizing: border-box;
+        overflow: hidden; }
+    body section {
+      max-width: 948px;
+      margin: 0 auto; }
+      body section div {
+        float: right;
+        width: 50%;
+        vertical-align: top;
+        border: 1em solid white;
+        box-sizing: border-box; }
+    body footer {
+      overflow: hidden; } }
 @media (min-width: 979px) {
   body {
     max-width: 50000px; }
@@ -151,19 +153,13 @@ body {
       max-width: 980px;
       margin: 0 auto 3em auto; }
     body main {
-      margin: 0 auto; }
+      margin: 0 auto;
+      overflow: hidden; }
     body .lorem-ipsum {
-      margin: 0 3em;
-      /*Not sure why using margin: 0 auto won't work in the above line, but some part of how I set up the divs and the paragraphs is messing with how they turn out. Not entirely sure how to fix it. */ }
-      body .lorem-ipsum section > div:first-child {
-        margin-left: auto; }
-      body .lorem-ipsum section > div:nth-child(2) {
-        margin-right: auto; }
-      body .lorem-ipsum section > div:nth-child(3) {
-        margin-left: auto; }
-      body .lorem-ipsum section > div:last-child {
-        margin-right: auto; }
+      overflow: hidden;
+      margin: 0 auto; }
     body footer {
-      margin: 0 auto; } }
+      margin: 0 auto;
+      clear: right; } }
 
 /*# sourceMappingURL=styles.css.map */
