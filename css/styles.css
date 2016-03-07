@@ -41,7 +41,7 @@ body {
     max-width: 458px;
     margin: 0 10px; }
     body main .color-panel {
-      padding: 35px 75px 10px 75px;
+      padding: 2em 1em 0.5em 1em;
       text-align: center;
       height: 180px;
       color: #fff; }
@@ -123,5 +123,26 @@ body {
         font-size: 3em; }
     body main {
       max-width: 747px; } }
+@media (min-width: 767px) {
+  body {
+    max-width: 978px; }
+    body main {
+      max-width: 958px; }
+      body main .premium-plan-panel {
+        display: inline-block;
+        margin: 0 0.5em;
+        width: 30%; }
+    body section > div {
+      display: inline-block;
+      width: 40%;
+      vertical-align: top; }
+    body section > div:first-child {
+      margin-right: 2.5em; }
+    body section > div:nth-child(2) {
+      margin-left: 2.5em; }
+    body section > div:nth-child(3) {
+      margin-right: 2.5em; }
+    body section > div:last-child {
+      margin-left: 2.5em; } }
 
 /*# sourceMappingURL=styles.css.map */
